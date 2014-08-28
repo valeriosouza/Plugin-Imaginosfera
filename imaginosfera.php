@@ -12,8 +12,8 @@
 
 //Funções basicas do WordPress, algumas estão comentadas por padrão, pois poderá dar conflito com wp-config.php
 
-//Ativar debug
-define(	'WP_DEBUG', false);
+//Para Ativar debug abra p wp-config e muda o define('WP_DEBUG', false); para define('WP_DEBUG', true);
+
 //Ativar debug em arquivo log, que ficara em wp-content/debug.log
 define(	'WP_DEBUG_LOG', true);
 //Ativar display do debug, que mostrará os erros na tela
