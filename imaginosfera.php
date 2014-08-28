@@ -214,12 +214,12 @@ function imaginosfera_replace_ola( $wp_admin_bar ) {
 
 function imaginosfera_posts_status_color(){
 ?>
-<style>
-.status-draft{background: #FCE3F2 !important;}
-.status-pending{background: #87C5D6 !important;}
-.status-publish{/* Nenhum background. Manter as cores alternadas */}
-.status-future{background: #C6EBF5 !important;}
-.status-private{background:#F2D46F;}
-</style>
+    <style>
+    .status-draft{background: #FCE3F2 !important;}
+    .status-pending{background: #87C5D6 !important;}
+    .status-publish{/* Nenhum background. Manter as cores alternadas */}
+    .status-future{background: #C6EBF5 !important;}
+    .status-private{background:#F2D46F;}
+    </style>
 <?php
 }
